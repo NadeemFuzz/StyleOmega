@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ListView
+        android:id="@+id/cart_list"
+        android:layout_width="match_parent"
+        android:layout_height="411dp"
+        android:layout_weight="0.96" />
+
+    <Button
+        android:id="@+id/btnCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckout"
+        android:textAllCaps="false"
+        android:text="Proceed To Checkout" />
+</LinearLayout>

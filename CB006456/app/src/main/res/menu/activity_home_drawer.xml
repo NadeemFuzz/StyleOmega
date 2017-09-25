@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_store"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Store Merchandise" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Contact Store" />
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Cart" />
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share" />
+
+    </group>
+
+    <item android:title="Account Settings">
+        <menu>
+            <item
+                android:id="@+id/manageacc"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Manage Account" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@mipmap/ic_launcher_round"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/Kids"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Kids's Wear"
+        android:layout_above="@+id/Acc"
+        android:layout_alignStart="@+id/WomensCloth" />
+
+    <Button
+        android:id="@+id/WomensCloth"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Women's Wear"
+        android:layout_above="@+id/Kids"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/MensCloth"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/WomensCloth"
+        android:layout_alignStart="@+id/WomensCloth"
+        android:text="Men's Wear" />
+
+    <Button
+        android:id="@+id/Acc"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Accessories"
+        android:layout_marginBottom="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/Kids" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/people"
+        android:layout_marginTop="9dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/MensCloth"
+        android:layout_alignStart="@+id/MensCloth"
+        android:text="Search" />
+</RelativeLayout>

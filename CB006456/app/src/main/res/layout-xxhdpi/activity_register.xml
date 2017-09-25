@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="styleomega.cb006456.styleomega.RegisterActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="StyleOmega User Registration"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="39dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter Name"
+        android:inputType="textEmailAddress"
+        android:textColor="#000"
+        android:layout_above="@+id/editEmail"
+        android:layout_alignEnd="@+id/textView" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#000"
+        android:layout_above="@+id/editPassword"
+        android:layout_alignStart="@+id/editName"
+        android:layout_marginBottom="47dp" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textColor="#000"
+        android:layout_marginBottom="53dp"
+        android:layout_above="@+id/buttonRegister"
+        android:layout_alignStart="@+id/editEmail" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register !"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="86dp" />
+
+</RelativeLayout>

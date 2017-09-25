@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="54dp"
+        android:gravity="center"
+        android:text="User Email : "
+        android:textColor="#0eacdb"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtPass"
+        android:layout_alignStart="@+id/txtPass"
+        android:layout_marginBottom="24dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#000" />
+
+    <EditText
+        android:id="@+id/txtPass"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnUpdate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/txtPass"
+        android:layout_marginBottom="85dp"
+        android:text="Update" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:text="Manage User Details"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txtPass"
+        android:layout_below="@+id/txtPass"
+        android:layout_marginLeft="92dp"
+        android:text="Delete" />
+</RelativeLayout>
