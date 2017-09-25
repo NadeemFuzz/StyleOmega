@@ -15,7 +15,7 @@ Functional Requirements for StyleOmega
 		 Registered users will be able to modify their account information and will be allowed to reset the password and change their email information.
 
 4.	Home Page
-		Displays a categorized selection of clothe ware and organized under the “Cloth Store” section. Each item will consist of a title, description, price along with available sizes and product image/a. The selection layout will also contain the shopping cart.
+		Displays a categorized selection of clothe ware and organized under the “Cloth Store” section. Each item will consist of a title, description, price along with available sizes and product image/s. The selection layout will also contain the shopping cart.
  
 5.	Search
 		Quickly search, get product details (Eg : Formal Shirt, Jeans ect..).
